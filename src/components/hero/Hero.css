@@ -34,7 +34,7 @@
 .red-circle {
   height: 4rem;
   width: 4rem;
-  background-color: rgb(209, 2, 2);
+  background-color: rgb(215, 150, 150);
   border-radius: 999px;
   position: absolute;
   right: 50%;
@@ -67,17 +67,16 @@
 }
 
 .stat > :nth-child(1) > :last-child {
-  color: #f15757;
+  color: orange;
 }
 
 /* right side */
-
 .image-container {
   width: 30rem;
   height: 35rem;
   overflow: hidden;
-  border-radius: 15rem 15rem 0 0;
-  border: 4px solid white;
+  border-radius: 4rem 4rem 0 0;
+  border: 3px solid white;
 }
 
 .image-container > img {

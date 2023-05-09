@@ -12,7 +12,7 @@ const Products = () => {
     <section className="products-wrapper">
           <div className="paddings innerWidth products-container">
                <div className="flexColStart products-head">
-                    <span className='redText'>Nossos produtos</span>
+                    <span className='darkRedText'>Nossos produtos</span>
                     <span className='mostSearched-text'>Os mais procurados</span>
                </div>
 

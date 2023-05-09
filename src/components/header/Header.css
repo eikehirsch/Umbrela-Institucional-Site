@@ -19,3 +19,9 @@
 .h-menu > *:hover {
   cursor: pointer;
 }
+
+.button {
+  background: rgb(206, 83, 83);
+  color: white;
+  border: 1px solid white;
+}

@@ -78,8 +78,14 @@ a {
   font-size: 0.9rem;
 }
 
-.redText {
-  color: #f15757;
+.lightRedText {
+  color: #f49b80;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.darkRedText {
+  color: #f01c1c;
   font-size: 1.3rem;
   font-weight: 600;
 }

@@ -26,7 +26,7 @@ const Value = () => {
 
         {/* right side */}
         <div className="flexColCenter value-right">
-          <span className='redText'>Nossos Valores</span>
+          <span className='darkRedText'>Nossos Valores</span>
           <span>Valores Que Entregamos A Você</span>
 
           <Accordion

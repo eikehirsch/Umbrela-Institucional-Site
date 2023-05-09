@@ -1,0 +1,24 @@
+.inner-container {
+  gap: 0.8rem;
+}
+
+.inner-container > :first-child {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.inner-container > :nth-child(2),
+.inner-container > :nth-child(3),
+.inner-container > :nth-child(4) {
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.inner-container .button {
+  width: 26%;
+}
+
+.inner-container > .button:hover {
+     background-color: rgb(255, 0, 0);
+}
