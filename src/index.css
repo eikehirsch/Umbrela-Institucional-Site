@@ -74,13 +74,19 @@ a {
 }
 
 .secondaryText {
-  color: rgb(140 139 139);
+  color: white;
   font-size: 0.9rem;
 }
 
 .redText {
-  color: #e10b0b;
-  font-size: 1.5rem;
+  color: #f15757;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.whiteText {
+  color: white;
+  font-size: 1.3rem;
   font-weight: 600;
 }
 

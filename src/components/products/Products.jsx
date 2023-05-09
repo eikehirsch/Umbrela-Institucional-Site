@@ -5,18 +5,19 @@ import 'swiper/css'
 import './Products.css'
 
 import data from '../../utils/slider.json'
+import {sliderSettings} from "../../utils/common.js"
 
 const Products = () => {
   return (
     <section className="products-wrapper">
-     
-          <div className="paddings innerWidth products-wrapper">
+          <div className="paddings innerWidth products-container">
                <div className="flexColStart products-head">
                     <span className='redText'>Nossos produtos</span>
                     <span className='mostSearched-text'>Os mais procurados</span>
                </div>
 
-               <Swiper>
+               <Swiper {...sliderSettings}>
+               <SliderButtons/>
                     {
                          data.map((card, i) => (
                               <SwiperSlide key={i}>
@@ -40,4 +41,14 @@ const Products = () => {
   )
 }
 
-export default Products
+export default Products;
+
+const SliderButtons = () => {
+     const swiper = useSwiper();
+     return (
+          <div className='flexCenter products-buttons'>
+               <button onClick={() => swiper.slidePrev()}>&lt;</button>
+               <button onClick={() => swiper.slideNext()}>&gt;</button>
+          </div>
+     )
+}

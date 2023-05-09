@@ -1,0 +1,49 @@
+.regenerate-wrapper {
+  background-color: rgb(63, 59, 59);
+}
+
+.regenerate-head {
+  position: relative;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.regenerate-head > :nth-child(1) {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.regenerate-head > :nth-child(2) {
+  font-size: 2rem;
+  font-weight: bold;
+  position: absolute;
+  color: white;
+  top: 3rem;
+  left: 6rem;
+}
+
+.regenerate-head > :nth-child(3) {
+  font-size: 2rem;
+  font-weight: bold;
+  position: absolute;
+  top: 6rem;
+  left: 14rem;
+}
+
+.commercial-container {
+  gap: 1.5rem;
+}
+
+.link-tvirus:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.commercial-container > :nth-child(4) {
+  color: white;
+  margin-top: 1rem;
+}
+
+.commercial-video {
+  border: none;
+}

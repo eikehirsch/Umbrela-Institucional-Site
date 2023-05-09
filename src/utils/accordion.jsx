@@ -1,23 +1,24 @@
 import { HiShieldCheck } from "react-icons/hi";
-import { MdCancel, MdAnalytics } from "react-icons/md";
+import { BiBody } from "react-icons/bi";
+import { AiFillStar } from "react-icons/ai";
 const data = [
   {
-    icon: <HiShieldCheck/>,
-    heading: "Best interest rates on the market",
+    icon: <AiFillStar/>,
+    heading: "A vanguarda da biotecnologia",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Desenvolvemos soluções inovadoras que ajudam a melhorar a saúde humana utilizando o que a tecnologia e os seres vivos têm de melhor, da nanotecnologia à genômica.",
   },
   {
-    icon: <MdCancel />,
-    heading: "Prevent unstable prices",
+    icon: <HiShieldCheck />,
+    heading: "Produtos seguros e testados",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Entendemos que a segurança é uma preocupação importante para nossos clientes e, por isso, oferecemos testes rigorosos e comprovados em laboratório para garantir a segurança e eficácia de nossas soluções.",
   },
   {
-    icon: <MdAnalytics />,
-    heading: "Best price on the market",
+    icon: <BiBody />,
+    heading: "Consciência social e ambiental",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Todos os nossos projetos são idealizados para ter um impacto positivo no meio ambiente e na sociedade, garantindo que as gerações futuras possam desfrutar de um mundo mais sustentável.",
   },
 ];
 export default data;

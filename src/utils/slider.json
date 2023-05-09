@@ -1,38 +1,38 @@
 [
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "name": "VelvetSkin",
+    "price": "700,00",
+    "detail": "Um hidratante corporal rico em manteiga de karité que deixa a pele suave como veludo ao estimular a síntese de colágeno do tipo IV.",
+    "image": "./velvet-skin.png"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "name": "NeuroEnhancer",
+    "price": "2750,00",
+    "detail": "Um implante que modifica as ondas cerebrais para melhorar o a plasticidade neural e memória de longo prazo.",
+    "image": "./neuro-enhancer.png"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "name": "BioTracker",
+    "price": "1950,00",
+    "detail": "Um chip intradérmico que monitora a saúde a nível celular, analisando dados como o metabolismo, o envelhecimento celular e o equilíbrio hormonal.",
+    "image": "./bio-tracker.png"
   },
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "name": "TabletCandy",
+    "price": "350,00",
+    "detail": "Um coquetel que aumenta a produção de glóbulos vermelhos e melhora a oxigenação dos tecidos, aumentando a energia e a vitalidade.",
+    "image": "./tablet-candy.png"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "name": "HeartShield",
+    "price": "650,00",
+    "detail": "Um suplemento alimentar que ajuda a fortalecer e proteger o coração de danos causados por estresse oxidativo e inflamação.",
+    "image": "./heart-shield.png"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "name": "NanoHydrator",
+    "price": "850,00",
+    "detail": "Um hidratante facial que utiliza nanopartículas para penetrar profundamente na pele e proporcionar hidratação de longa duração.",
+    "image": "./nano-hydrator.png"
   }
 ]

@@ -4,7 +4,7 @@
 }
 
 .App > :nth-child(1) {
-  background-color: var(--black);
+  background-color: rgb(63, 59, 59);
   position: relative;
 }
 

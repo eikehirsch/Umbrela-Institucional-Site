@@ -1,5 +1,5 @@
 .h-wrapper {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .h-container {
@@ -10,6 +10,10 @@
 
 .h-menu {
   gap: 2rem;
+}
+
+.h-menu > a {
+  color: white;
 }
 
 .h-menu > *:hover {
