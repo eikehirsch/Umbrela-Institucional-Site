@@ -1,0 +1,131 @@
+.footer-container {
+  justify-content: space-between;
+  padding-top: 3rem;
+  gap: 1rem;
+}
+
+.first-row {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.oms-container {
+  justify-content: center;
+  width: 100%;
+}
+
+.umbrella-title-left {
+  width: 100%;
+  color: red;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.oms-logo {
+  height: 10rem;
+  width: 18rem;
+}
+
+.right-footer {
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.solutions-container,
+.umbrella-container,
+.support-container,
+.content-container {
+  font-size: 1.1rem;
+  gap: 1.3rem;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.second-row {
+  gap: 2rem;
+  width: 100%;
+}
+
+@media(max-width: 500px) {
+  .right-footer {
+    flex-direction: column;
+    width: 100%;
+    gap: 1.4rem !important;
+  }
+
+  .solutions-container, 
+  .umbrella-container, 
+  .support-container, 
+  .content-container {
+    gap: 0.2rem !important;
+    width: 100% !important;
+    text-align: center !important;
+    justify-content: center;
+  }
+
+  .solutions-container h3, 
+  .umbrella-container h3, 
+  .support-container h3, 
+  .content-container h3,
+  .solutions-container span, 
+  .umbrella-container span, 
+  .support-container span, 
+  .support-container div, 
+  .content-container span  {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+
+@media(max-width: 640px) {
+
+  .footer-container {
+    padding-top: 1rem !important;
+  }
+
+  .first-row {
+    gap: 0rem;
+  }
+
+  .left-footer {
+    width: 100%;
+  }
+
+  .left-footer > :first-child {
+    width: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+  }  
+
+  .right-footer {
+    width: 100%;
+    gap: 1.4rem !important;
+  }
+
+  .solutions-container, 
+  .umbrella-container, 
+  .support-container, 
+  .content-container {
+    gap: 0.2rem !important;
+    width: 100% !important;
+    text-align: center !important;
+    justify-content: center;
+  }
+
+  .solutions-container h3, 
+  .umbrella-container h3, 
+  .support-container h3, 
+  .content-container h3,
+  .solutions-container span, 
+  .umbrella-container span, 
+  .support-container span, 
+  .support-container div, 
+  .content-container span  {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+}

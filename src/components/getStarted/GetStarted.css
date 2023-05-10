@@ -20,5 +20,34 @@
 }
 
 .inner-container > .button:hover {
-     background-color: rgb(255, 0, 0);
+  background-color: rgb(255, 0, 0);
+}
+
+.spanStarted {
+  font-size: 1.3rem;
+}
+
+@media(max-width: 640px) {
+  .inner-container > :first-child {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .inner-container > :nth-child(2),
+  .inner-container > :nth-child(2) > :first-child,
+  .inner-container > :nth-child(3) > :first-child,
+  .inner-container > :nth-child(3),
+  .inner-container > :nth-child(4)
+   {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .inner-container > .button {
+    width: 50%;
+  }
+
+  
 }

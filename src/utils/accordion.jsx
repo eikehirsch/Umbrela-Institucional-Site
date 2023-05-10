@@ -4,7 +4,7 @@ import { AiFillStar } from "react-icons/ai";
 const data = [
   {
     icon: <AiFillStar/>,
-    heading: "A vanguarda da biotecnologia",
+    heading: "Vanguarda da biotecnologia",
     detail:
       "Desenvolvemos soluções inovadoras que ajudam a melhorar a saúde humana utilizando o que a tecnologia e os seres vivos têm de melhor, da nanotecnologia à genômica.",
   },
@@ -16,7 +16,7 @@ const data = [
   },
   {
     icon: <BiBody />,
-    heading: "Consciência social e ambiental",
+    heading: "Consciência socioambiental",
     detail:
       "Todos os nossos projetos são idealizados para ter um impacto positivo no meio ambiente e na sociedade, garantindo que as gerações futuras possam desfrutar de um mundo mais sustentável.",
   },

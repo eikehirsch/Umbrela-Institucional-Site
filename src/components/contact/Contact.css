@@ -5,6 +5,8 @@
 .contact-container {
   justify-content: space-between;
   align-items: end;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 /* .contact-container > div {
@@ -75,7 +77,7 @@
 .contact-left > :nth-child(1) {
   color: #f49b80;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .contact-left > :nth-child(2) {
@@ -88,4 +90,67 @@
   color: #f49b80;
   font-weight: bold;
   font-size: 1.2rem;
+}
+
+@media(max-width: 460px) {
+  .contact-image {
+    height: 10rem !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .contact-left > :nth-child(1) {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .contact-left > :nth-child(2) {
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .contactModes, .row {
+    width: 100%;
+  }
+
+  .mode {
+    width: 70%;
+  }
+
+  .contact-right {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .contact-image {
+    width: 70%;
+    height: 14rem;
+  }
+}
+
+@media(max-width: 1024px) {
+  .contact-left > :nth-child(1) {
+    width: 100%;
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  .contact-left > :nth-child(2) {
+    width: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  
+  .contactModes, .row {
+    width: 100%;
+    justify-content: center;
+  }
+  
 }

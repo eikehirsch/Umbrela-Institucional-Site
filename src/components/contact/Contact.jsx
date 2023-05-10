@@ -11,7 +11,6 @@ const Contact = () => {
                {/* left side */}
                <div className="flexColStart contact-left">
                     <span>Nossos Contatos</span>
-                    <span>Converse conosco</span>
                     <span>Estamos sempre prontos para fornecer o melhor serviço.</span>
 
                     <div className="flexColStart contactModes">
@@ -62,7 +61,7 @@ const Contact = () => {
                                         </div>
 
                                         <div className="flexColStart detail">
-                                             <span>Vídeo Chamada</span>
+                                             <span>Por Vídeo</span>
                                              <span>41 3222-5648</span>
                                         </div>
                                    </div>

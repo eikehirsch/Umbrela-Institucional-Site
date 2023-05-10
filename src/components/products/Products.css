@@ -91,3 +91,22 @@
 .darkRedText {
   font-size: 1.7rem;
 }
+
+@media(max-width: 640px) {
+  .products-head > :nth-child(1) {
+    font-size: 1.3rem;
+  }
+
+  .products-head > :nth-child(2) {
+    font-size: 1.5rem;
+  }
+
+  .products-head {
+    align-items: center;
+  }
+
+  .products-buttons {
+    position: inherit;
+    top: 0rem;
+  }
+}

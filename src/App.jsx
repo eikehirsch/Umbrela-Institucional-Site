@@ -6,6 +6,7 @@ import Regenerate from "./components/regenerate/Regenerate";
 import Value from "./components/value/Value"
 import Contact from "./components/contact/Contact"
 import GetStarted from "./components/getStarted/GetStarted";
+import Footer from "./components/footer/Footer";
 
 import './App.css'
 
@@ -23,6 +24,7 @@ function App() {
       <Value/>
       <Contact/>
       <GetStarted/>
+      <Footer/>
     </div>
   );
 }
