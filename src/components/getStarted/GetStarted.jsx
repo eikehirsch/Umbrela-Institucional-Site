@@ -3,7 +3,7 @@ import './GetStarted.css'
 
 const GetStarted = () => {
   return (
-    <section className="getStarted-wrapper">
+    <section id="launch" className="getStarted-wrapper">
           <div className="paddings innerWidth getStarted-container">
                <div className="flexColCenter inner-container">
                     <span>Contribua com o lançamento do Regenerate®!</span>

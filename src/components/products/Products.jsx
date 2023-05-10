@@ -9,7 +9,7 @@ import {sliderSettings} from "../../utils/common.js"
 
 const Products = () => {
   return (
-    <section className="products-wrapper">
+    <section id="products" className="products-wrapper">
           <div className="paddings innerWidth products-container">
                <div className="flexColStart products-head">
                     <span className='darkRedText'>Nossos produtos</span>

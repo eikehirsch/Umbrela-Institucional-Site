@@ -6,6 +6,7 @@
   justify-content: space-between;
   padding: 1rem 0;
   color: var(--secondary);
+  border-bottom: 4px solid white;
 }
 
 .h-menu {

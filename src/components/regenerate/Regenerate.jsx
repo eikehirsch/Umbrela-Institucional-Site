@@ -3,7 +3,7 @@ import './Regenerate.css'
 
 const Regenerate = () => {
   return (
-    <section className='regenerate-wrapper'>
+    <section id="regenerate" className='regenerate-wrapper'>
           <div className="paddings innerWidth regenerate-container">
                <div className="flexColStart regenerate-head">
                     <span className='lightRedText'>Conheça nossa mais</span>

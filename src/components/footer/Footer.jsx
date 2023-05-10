@@ -14,7 +14,8 @@ const Footer = () => {
           <div className="paddings innerWidth flexCenter footer-container">
                <div className="first-row flexCenter">
                     <div className="left-footer flexColStart">
-                         <span className='umbrella-title-left'>Umbrella Corporation Inc</span>
+                         <span className='umbrella-title-left'>Umbrella Corporation Inc.</span>
+                         <span>Todos os direitos reservados. ©</span>
                          <div className='flexCenter oms-container'>
                          <img src="./oms.png" alt="" className="oms-logo" />
                          </div>
