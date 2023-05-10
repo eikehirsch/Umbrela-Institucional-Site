@@ -95,7 +95,7 @@ const Contact = () => {
 
                {/* right side */}
                <div className="contact-right">
-                    <img className='contact-image' src="../public/contact-umbrella.jpg" alt="" />
+                    <img className='contact-image' src="./contact-umbrella.jpg" alt="" />
                </div>
           </div>
     </section>
