@@ -1,9 +1,9 @@
 .contact-wrapper {
-  background-color: rgb(160, 16, 16);
+  background-color: rgb(47, 46, 46);
 }
 
 .contact-container {
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: end;
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -17,9 +17,20 @@
   gap: 0.5rem;
 }
 
+.contact-left > span {
+  width: 100%;
+  text-align: center;
+}
+
 .contactModes {
   margin-top: 2rem;
   gap: 1rem;
+  width: 100%;
+}
+
+.row {
+  width: 100%;
+  justify-content: center;
 }
 
 .contactModes .row {
@@ -32,7 +43,7 @@
   border-radius: 5px;
   gap: 1rem;
   transition: all 300ms ease-in;
-  background: rgb(223, 88, 88);
+  background: #f35f5f;
 }
 
 .mode:hover {
@@ -75,7 +86,7 @@
 }
 
 .contact-left > :nth-child(1) {
-  color: #f49b80;
+  color: #f64d4d;
   font-weight: bold;
   font-size: 2rem;
 }

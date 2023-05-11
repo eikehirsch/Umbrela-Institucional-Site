@@ -34,7 +34,7 @@
 .red-circle {
   height: 4rem;
   width: 4rem;
-  background-color: rgb(215, 150, 150);
+  background-color: rgb(221, 53, 53);
   border-radius: 999px;
   position: absolute;
   right: 50%;
@@ -75,8 +75,7 @@
   width: 30rem;
   height: 35rem;
   overflow: hidden;
-  border-radius: 4rem 4rem 0 0;
-  border: 3px solid white;
+  border: 1px solid white;
 }
 
 .image-container > img {

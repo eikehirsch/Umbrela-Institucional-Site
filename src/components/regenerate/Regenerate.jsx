@@ -1,7 +1,17 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import './Regenerate.css'
 
 const Regenerate = () => {
+
+  const [switchPressed, setSwitchPressed] = useState(false);
+
+  const videoToggler = (switchPressed) => {
+    console.log(switchPressed)
+    if(switchPressed) {
+      return {display: 'flex', opacity: '1', transition: 'all 3000s ease-in'}
+    }
+  }
+
   return (
     <section id="regenerate" className='regenerate-wrapper'>
           <div className="paddings innerWidth regenerate-container">
@@ -15,7 +25,13 @@ const Regenerate = () => {
                   <span className='whiteText'>O envelhecimento corporal é um processo biológico inevitável. Apenas para quem não conhece o <span className='lightRedText'> Regenerate®</span>.</span>
                   <span className='whiteText'> Este será o primeiro produto farmacêutico do mundo <span className='lightRedText'>capaz de reescrever o DNA do cliente.</span>, garantindo um rejuvenescimento celular permanente.</span>
                   <span className='whiteText'> Tudo isso graças ao <span className='lightRedText'>T-Vírus</span>, que já na fase de testes finais, que atuará como o componente principal do <span className='lightRedText'>Regenerate®</span>.</span>
-                  <div className="video-container flexCenter">
+                  <div className="umbrella-switch-container">
+                    <span>Pressione para saber mais</span>
+                    <img onClick={()=> setSwitchPressed((prev)=>!prev)} className='umbrella-switch' src="./umbrella-switch.png" alt="" />
+                  </div>
+                  <div
+                  style={videoToggler(switchPressed)} 
+                  className="video-container flexCenter">
                     <span>* Acessibilidade: ative as legendas do vídeo no botão CC. </span>
                     <iframe className='commercial-video' width="80%" height="600rem" controls src="https://www.youtube.com/embed/OP2_6dIXoKU" autoplay poster="imagemprevia.jpg">
                         Desculpa, o seu navegador não suporta vídeos incorporados,

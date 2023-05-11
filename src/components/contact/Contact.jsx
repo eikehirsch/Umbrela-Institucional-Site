@@ -92,11 +92,6 @@ const Contact = () => {
                          
                     </div>
                </div>
-
-               {/* right side */}
-               <div className="contact-right">
-                    <img className='contact-image' src="./contact-umbrella.jpg" alt="" />
-               </div>
           </div>
     </section>
   )

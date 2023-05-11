@@ -17,7 +17,7 @@ const Footer = () => {
                          <span className='umbrella-title-left'>Umbrella Corporation Inc.</span>
                          <span>Todos os direitos reservados. ©</span>
                          <div className='flexCenter oms-container'>
-                         <img src="./oms.png" alt="" className="oms-logo" />
+                         <a href="https://www.who.int/pt" target='_blank'><img src="./oms.png" alt="" className="oms-logo" /></a>
                          </div>
                     </div>
 
@@ -57,11 +57,11 @@ const Footer = () => {
 
                <IconContext.Provider value={{ color: "red", size: "2rem" }}>
                     <div className="second-row flexCenter">
-                         <SlSocialFacebook/>
-                         <SlSocialInstagram/>
-                         <SlSocialTwitter/>
-                         <SlSocialYoutube/>
-                         <SlSocialLinkedin/>
+                         <a href=''><SlSocialFacebook/></a>
+                         <a href=''><SlSocialInstagram/></a>
+                         <a href=""><SlSocialTwitter/></a>
+                         <a href=""><SlSocialYoutube/></a>
+                         <a href=""><SlSocialLinkedin/></a>
                     </div>
                </IconContext.Provider>
           </div>

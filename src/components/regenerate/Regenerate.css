@@ -1,5 +1,5 @@
 .regenerate-wrapper {
-  background-color: rgb(160, 16, 16);
+  background-color: rgb(47, 46, 46);
 }
 
 .regenerate-head {
@@ -15,7 +15,7 @@
 
 .regenerate-head > :nth-child(2) {
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 500;
   position: absolute;
   color: white;
   top: 3rem;
@@ -31,7 +31,33 @@
 }
 
 .commercial-container {
-  gap: 1.5rem;
+  padding-top: 2.5rem;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.umbrella-switch-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 0 !important;
+  flex-direction: column;
+  align-items: center;
+}
+
+.umbrella-switch-container > :first-child {
+  color: white;
+}
+
+.umbrella-switch {
+  width: 80px !important;
+  height: 80px !important;
+  cursor: pointer;
+}
+
+.commercial-container > span {
+  padding: 0 8rem;
+  text-align: center;
 }
 
 .link-tvirus:hover {
@@ -39,7 +65,7 @@
   text-decoration: underline;
 }
 
-.commercial-container > :nth-child(4) {
+.commercial-container > :nth-child(5) {
   color: white;
   margin-top: 1rem;
 }
@@ -47,10 +73,12 @@
 .video-container {
   gap: 0.5rem;
   width: 100%;
+  display: none;
+  opacity: 0;
 }
 
 .commercial-video {
-  border: none;
+  border: none
 }
 
 @media(max-width: 640px) {
