@@ -58,7 +58,7 @@ const About = () => {
 
                 <img
                   className="about-card-image"
-                  src="../../public/welcome.png"
+                  src="./welcome.png"
                   alt=""
                 />
               </motion.div>
@@ -102,7 +102,7 @@ const About = () => {
 
                 <img
                   className="about-card-image"
-                  src="../../public/spencer.jpg"
+                  src="./spencer.jpg"
                   alt=""
                 />
               </motion.div>
