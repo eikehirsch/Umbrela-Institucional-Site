@@ -15,9 +15,6 @@ const GetStarted = () => {
                     <button className='button'>
                          <a href="mailto:umbrella_selecao_tvirus@umbrella.com">Participar da seleção</a>
                     </button>
-                    <button className='button'>
-                         <a href="">O que é T-Vírus?</a>
-                    </button>
                </div>
           </div>
     </section>

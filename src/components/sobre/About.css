@@ -1,0 +1,106 @@
+.about-wrapper {
+  background-color: red;
+  padding-bottom: 2rem;
+}
+
+.about-container {
+  gap: 2rem;
+}
+
+.titles-container {
+  gap: 1rem;
+}
+
+.titles-container > :nth-child(2) {
+  font-size: 1.3rem;
+  color: white;
+  width: 80%;
+  text-align: center;
+}
+
+.cards-main-container {
+  gap: 2rem;
+}
+
+.about-title {
+  color: white;
+  width: 80%;
+  text-align: center;
+}
+
+.about-card {
+  background-color: white;
+  padding: 0.6rem 1rem;
+  border: 1px solid black; 
+}
+
+.about-card-title {
+  text-align: center;
+}
+
+.about-lower-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.about-paragraph-container {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.about-card-paragraph {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.button-about {
+  width: 50%;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.about-card-image {
+  width: 20rem
+}
+
+@media(max-width: 640px) {
+  .about-title {
+    font-size: 1.8rem;
+  }
+
+  .titles-container > :nth-child(2) {
+    font-size: 1rem;
+  }
+
+  .about-card-title {
+    font-size: 1.2rem;
+  }
+
+  .about-paragraph-container {
+    width: 90%;
+  }
+
+  .about-card-paragraph,
+  .about-card-paragraph > .lightRedText {
+    font-size: 0.8rem;
+  }
+
+  .button-about {
+    width: 90%;
+    font-size: 0.7rem;
+  }
+
+  .about-card-image {
+    width: 80%
+  }
+}

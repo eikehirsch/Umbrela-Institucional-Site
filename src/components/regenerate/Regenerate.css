@@ -53,7 +53,9 @@
   width: 80px !important;
   height: 80px !important;
   cursor: pointer;
+  transition: all 200ms ease-in;
 }
+
 
 .commercial-container > span {
   padding: 0 8rem;
@@ -106,9 +108,12 @@
   .commercial-container > span,
   .commercial-container > span > :first-child,
   .commercial-container > span > :last-child
-
     {
     font-size: 0.8rem;
+  }
+
+  .commercial-container > span {
+    padding: 0 1rem;
   }
 
   .video-container > span {

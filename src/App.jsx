@@ -7,6 +7,7 @@ import Value from "./components/value/Value"
 import Contact from "./components/contact/Contact"
 import GetStarted from "./components/getStarted/GetStarted";
 import Footer from "./components/footer/Footer";
+import About from "./components/sobre/About";
 
 import './App.css'
 
@@ -19,6 +20,7 @@ function App() {
         <Hero/>
       </div>
       {/* <Companies/> */}
+      <About/>
       <Products/>
       <Regenerate/>
       <Value/>

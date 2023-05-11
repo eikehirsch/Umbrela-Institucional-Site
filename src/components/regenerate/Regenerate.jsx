@@ -5,10 +5,15 @@ const Regenerate = () => {
 
   const [switchPressed, setSwitchPressed] = useState(false);
 
-  const videoToggler = (switchPressed) => {
-    console.log(switchPressed)
+  const switchRotater = (switchPressed) => {
     if(switchPressed) {
-      return {display: 'flex', opacity: '1', transition: 'all 3000s ease-in'}
+      return {transform: 'rotate(180deg)'}
+    }
+  }
+
+  const videoToggler = (switchPressed) => {
+    if(switchPressed) {
+      return {display: 'flex', opacity: '1'}
     }
   }
 
@@ -27,7 +32,7 @@ const Regenerate = () => {
                   <span className='whiteText'> Tudo isso graças ao <span className='lightRedText'>T-Vírus</span>, que já na fase de testes finais, que atuará como o componente principal do <span className='lightRedText'>Regenerate®</span>.</span>
                   <div className="umbrella-switch-container">
                     <span>Pressione para saber mais</span>
-                    <img onClick={()=> setSwitchPressed((prev)=>!prev)} className='umbrella-switch' src="./umbrella-switch.png" alt="" />
+                    <img style={switchRotater(switchPressed)} onClick={()=> setSwitchPressed((prev)=>!prev)} className='umbrella-switch' src="./umbrella-switch.png" alt="" />
                   </div>
                   <div
                   style={videoToggler(switchPressed)} 
