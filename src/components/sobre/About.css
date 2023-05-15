@@ -20,6 +20,7 @@
 
 .cards-main-container {
   gap: 2rem;
+  cursor: pointer;
 }
 
 .about-title {
@@ -31,7 +32,7 @@
 .about-card {
   background-color: white;
   padding: 0.6rem 1rem;
-  border: 1px solid black; 
+  border: 1px solid black;
 }
 
 .about-card-title {
@@ -70,10 +71,10 @@
 }
 
 .about-card-image {
-  width: 20rem
+  width: 20rem;
 }
 
-@media(max-width: 640px) {
+@media (max-width: 640px) {
   .about-title {
     font-size: 1.8rem;
   }
@@ -101,6 +102,12 @@
   }
 
   .about-card-image {
-    width: 80%
+    width: 80%;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 900px) {
+  .about-paragraph-container {
+    width: 80%;
   }
 }

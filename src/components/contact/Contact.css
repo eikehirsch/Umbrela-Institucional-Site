@@ -9,10 +9,6 @@
   padding-bottom: 4rem;
 }
 
-/* .contact-container > div {
-  flex: 1;
-}  */
-
 .contact-left {
   gap: 0.5rem;
 }
@@ -107,12 +103,14 @@
   .contact-image {
     height: 10rem !important;
   }
-
-  .mode {
-  }
 }
 
 @media (max-width: 640px) {
+
+  .contact-container {
+    padding-top: 3rem;
+  }
+
   .contact-left > :nth-child(1) {
     width: 100%;
     text-align: center;

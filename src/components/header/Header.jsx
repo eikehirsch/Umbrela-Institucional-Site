@@ -5,7 +5,7 @@ import OutsideClickHandler from 'react-outside-click-handler'
 
 const Header = () => {
 
-  const [menuOpened, setMenuOpened] = useState(false);
+  const [menuOpened, setMenuOpened] = useState( );
   
   const getMenuStyles = (menuOpened) => {
     if(document.documentElement.clientWidth <= 800) {

@@ -6,7 +6,7 @@
   justify-content: space-between;
   padding: 1rem 0;
   color: var(--secondary);
-  border-bottom: 4px solid white;
+  /* border-bottom: 4px solid white; */
 }
 
 .h-menu {
@@ -64,5 +64,11 @@
 
   .menu-icon {
     display: block;
+  }
+}
+
+@media (max-width: 1536px) {
+  .h-container {
+    justify-content: space-around;
   }
 }

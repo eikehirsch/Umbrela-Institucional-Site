@@ -10,6 +10,7 @@
 .inner-container > :first-child {
   font-size: 1.8rem;
   font-weight: bold;
+  text-align: center;
 }
 
 .inner-container > :nth-child(2),
@@ -53,6 +54,4 @@
   .inner-container > .button {
     width: 50%;
   }
-
-  
 }
