@@ -56,14 +56,11 @@
   transition: all 200ms ease-in;
 }
 
-/* .umbrella-switch:hover {
-  pointer-events: none;
-} */
-
 .commercial-container > span {
   padding: 0 8rem;
   text-align: center;
 }
+
 
 .link-tvirus:hover {
   color: blue;
