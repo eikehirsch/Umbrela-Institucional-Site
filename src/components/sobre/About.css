@@ -82,8 +82,9 @@
     font-size: 1.8rem;
   }
 
-  .titles-container > :nth-child(3) {
+  .about-subtitle {
     font-size: 1rem;
+    width: 100%;
   }
 
   .about-card-title {

@@ -152,6 +152,10 @@
     width: 100%;
     font-size: 0.8rem;
   }
+
+  .second-row {
+    margin-top: 1rem;
+  }
 }
 
 @media (min-width: 640px) and (max-width: 900px) {
