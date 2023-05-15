@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import "./About.css";
-import Login from "../login/login";
+import Login from "../login/Login";
 
 const About = () => {
   const [isFirstCardOpened, setIsFirstCardOpened] = useState(false);
@@ -21,7 +21,6 @@ const About = () => {
     <div className="about-wrapper">
       <div className="paddings innerWidth flexColCenter about-container">
         <div className="flexColCenter titles-container">
-
           {isLoginShowed && <Login />}
 
           <h1 className="about-title">Sobre nós</h1>
