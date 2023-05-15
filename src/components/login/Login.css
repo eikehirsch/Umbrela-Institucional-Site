@@ -1,0 +1,30 @@
+.login-container {
+  background-color: rgb(251, 223, 223);
+  position: absolute;
+  right: 1%;
+  top: 36%;
+  gap: 0.5rem;
+  padding: 1.5rem;
+  border: 2px solid black;
+}
+
+label {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.login-input {
+  padding: 0.5rem;
+}
+
+.forgot-password:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+@media (max-width: 1080px) {
+  .login-container {
+    position: static;
+  }
+}

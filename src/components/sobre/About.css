@@ -1,32 +1,34 @@
 .about-wrapper {
-  background-color: red;
+  background-color: rgb(224, 15, 15);
   padding-bottom: 2rem;
 }
 
 .about-container {
   gap: 2rem;
+  position: relative;
 }
 
 .titles-container {
   gap: 1rem;
 }
 
-.titles-container > :nth-child(2) {
-  font-size: 1.3rem;
+.about-title {
   color: white;
   width: 80%;
+  text-align: center;
+}
+
+.about-subtitle {
+  font-size: 1.3rem;
+  color: white;
+  width: 60%;
   text-align: center;
 }
 
 .cards-main-container {
   gap: 2rem;
   cursor: pointer;
-}
-
-.about-title {
-  color: white;
-  width: 80%;
-  text-align: center;
+  position: relative;
 }
 
 .about-card {
@@ -79,7 +81,7 @@
     font-size: 1.8rem;
   }
 
-  .titles-container > :nth-child(2) {
+  .titles-container > :nth-child(3) {
     font-size: 1rem;
   }
 
