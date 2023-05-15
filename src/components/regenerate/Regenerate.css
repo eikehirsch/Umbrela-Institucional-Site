@@ -56,9 +56,9 @@
   transition: all 200ms ease-in;
 }
 
-.umbrella-switch:hover {
+/* .umbrella-switch:hover {
   pointer-events: none;
-}
+} */
 
 .commercial-container > span {
   padding: 0 8rem;
