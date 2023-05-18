@@ -1,0 +1,40 @@
+.welcome-racconCity-wrapper {
+  position: relative;
+}
+
+.raccoon-city-imagem {
+  width: 100%;
+}
+
+.welcome-title {
+  font-size: 3rem;
+  top: 10rem;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+}
+
+.welcome-subtitle {
+  color: red;
+  font-size: 2rem;
+  top: 16rem;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+}
+
+.welcome-imagesContainer {
+  gap: 1rem;
+}
+
+.welcome-imageBox {
+  border: 2px solid black;
+  width: 22rem;
+  height: 22rem;
+}
+
+.about-raccoon-city-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+

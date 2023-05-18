@@ -32,6 +32,12 @@ const GetStarted = () => {
             </a>
           </button>
         </div>
+
+        <div className="flexColCenter regenerate-image-container">
+          <img className="regenerate-image" src="./regenerate.jpg" alt="" />
+          <span className="regenerate-image-description">Foto: Kit de lançamento do Regenerate®</span>
+        </div>
+        
       </div>
     </section>
   );

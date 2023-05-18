@@ -1,8 +1,8 @@
 .login-container {
-  background-color: rgb(251, 223, 223);
+  background-color: rgb(255, 182, 182);
   position: absolute;
   right: 1%;
-  top: 36%;
+  top: 12%;
   gap: 0.5rem;
   padding: 1.5rem;
   border: 2px solid black;

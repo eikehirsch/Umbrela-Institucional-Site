@@ -54,4 +54,22 @@
   .inner-container > .button {
     width: 50%;
   }
+
+  .regenerate-image-description {
+    font-size: 12px;
+  }
+}
+
+.regenerate-image-container {
+  width: 100%;
+  display: flex;
+  margin-top: 4rem;
+}
+
+.regenerate-image {
+  width: 50%;
+}
+
+.regenerate-image-description {
+  font-weight: 600;
 }

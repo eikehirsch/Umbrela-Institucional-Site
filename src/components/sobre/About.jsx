@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import "./About.css";
 import Login from "../login/Login";
@@ -62,7 +63,7 @@ const About = () => {
                     são hoje.
                   </p>
                   <button className="button-about button">
-                    Mais sobre Raccoon City
+                    <Link to="/raccoon-city">Mais sobre Raccoon City</Link>
                   </button>
                 </div>
 
@@ -102,7 +103,7 @@ const About = () => {
                     Umbrella Corporation.
                   </p>
                   <button className="button-about button">
-                    Mais sobre nossa história
+                    <Link to="/nossa-historia">Mais sobre nossa história</Link>
                   </button>
                 </div>
 
@@ -141,7 +142,7 @@ const About = () => {
                     a respeito da nossa empresa. Gostaria de conhecê-la?
                   </p>
                   <button className="button-about button">
-                    Mais sobre Red Queen
+                    <Link to="red-queen">Mais sobre Red Queen</Link>
                   </button>
                 </div>
 
