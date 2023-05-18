@@ -1,6 +1,6 @@
 .routesNavBar-wrapper {
-  background-color: #000000;
   align-items: center;
+  background-color: #000000;
 }
 
 .routesNavBar-container {
@@ -27,8 +27,3 @@
   text-decoration: underline;
 }
 
-.button {
-  background: rgb(221, 53, 53);
-  color: white;
-  border: 1px solid white;
-}

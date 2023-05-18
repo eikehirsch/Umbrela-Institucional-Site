@@ -1,6 +1,6 @@
 .companies-container {
-  justify-content: space-around;
   gap: 1rem;
+  justify-content: space-around;
 }
 
 .companies-container > img {

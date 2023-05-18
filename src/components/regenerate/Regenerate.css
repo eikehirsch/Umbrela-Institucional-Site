@@ -4,9 +4,9 @@
 }
 
 .regenerate-head {
-  position: relative;
   gap: 2rem;
   margin-bottom: 4rem;
+  position: relative;
 }
 
 .regenerate-head > :nth-child(1) {
@@ -15,35 +15,40 @@
 }
 
 .regenerate-head > :nth-child(2) {
+  color: white;
   font-size: 2rem;
   font-weight: 500;
-  position: absolute;
-  color: white;
-  top: 3rem;
   left: 6rem;
+  position: absolute;
+  top: 3rem;
 }
 
 .regenerate-head > :nth-child(3) {
   font-size: 2rem;
   font-weight: bold;
+  left: 14rem;
   position: absolute;
   top: 6rem;
-  left: 14rem;
 }
 
 .commercial-container {
-  padding-top: 2.5rem;
   gap: 2rem;
   justify-content: center;
+  padding-top: 2.5rem;
+}
+
+.commercial-container > span {
+  padding: 0 8rem;
+  text-align: center;
 }
 
 .umbrella-switch-container {
+  align-items: center;
   display: flex;
-  width: 100%;
+  flex-direction: column;
   justify-content: center;
   margin: 0 !important;
-  flex-direction: column;
-  align-items: center;
+  width: 100%;
 }
 
 .umbrella-switch-container > :first-child {
@@ -51,15 +56,10 @@
 }
 
 .umbrella-switch {
-  width: 80px !important;
-  height: 80px !important;
   cursor: pointer;
+  height: 80px !important;
   transition: all 200ms ease-in;
-}
-
-.commercial-container > span {
-  padding: 0 8rem;
-  text-align: center;
+  width: 80px !important;
 }
 
 
@@ -73,10 +73,10 @@
 }
 
 .video-container {
-  gap: 0.5rem;
-  width: 100%;
   display: none;
+  gap: 0.5rem;
   opacity: 0;
+  width: 100%;
 }
 
 .commercial-video {
@@ -93,8 +93,8 @@
 
   .regenerate-head > :nth-child(2) {
     font-size: 1.35rem;
-    left: 0;
     text-align: center;
+    left: 0;
     width: 100%;
   }
 

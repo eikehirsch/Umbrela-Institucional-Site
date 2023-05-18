@@ -1,6 +1,6 @@
 .getStarted-wrapper {
-  padding-top: 2rem;
   padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 .inner-container {
@@ -17,8 +17,8 @@
 .inner-container > :nth-child(3),
 .inner-container > :nth-child(4) {
   font-size: 1.3rem;
-  text-align: center;
   font-weight: 500;
+  text-align: center;
 }
 
 .inner-container .button {
@@ -33,33 +33,6 @@
   font-size: 1.3rem;
 }
 
-@media(max-width: 640px) {
-  .inner-container > :first-child {
-    width: 100%;
-    text-align: center;
-    font-size: 1.5rem;
-  }
-
-  .inner-container > :nth-child(2),
-  .inner-container > :nth-child(2) > :first-child,
-  .inner-container > :nth-child(3) > :first-child,
-  .inner-container > :nth-child(3),
-  .inner-container > :nth-child(4)
-   {
-    width: 100%;
-    text-align: center;
-    font-size: 1rem;
-  }
-
-  .inner-container > .button {
-    width: 50%;
-  }
-
-  .regenerate-image-description {
-    font-size: 12px;
-  }
-}
-
 .regenerate-image-container {
   width: 100%;
   display: flex;
@@ -72,4 +45,31 @@
 
 .regenerate-image-description {
   font-weight: 600;
+}
+
+@media(max-width: 640px) {
+  .inner-container > :first-child {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .inner-container > :nth-child(2),
+  .inner-container > :nth-child(2) > :first-child,
+  .inner-container > :nth-child(3) > :first-child,
+  .inner-container > :nth-child(3),
+  .inner-container > :nth-child(4)
+   {
+     font-size: 1rem;
+     text-align: center;
+     width: 100%;
+  }
+
+  .inner-container > .button {
+    width: 50%;
+  }
+
+  .regenerate-image-description {
+    font-size: 12px;
+  }
 }
