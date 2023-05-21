@@ -1,10 +1,21 @@
 import { React, useEffect } from "react";
+import { useState } from "react";
 import "./Login.css";
 
-const Login = () => {
+const Login = (props) => {
+  const getLoginStyles = () => {
+    if (props.isEnterPressed) {
+      if (document.documentElement.clientWidth <= 530) {
+        return { right: "10%", top: "460%" };
+      } else if (document.documentElement.clientWidth <= 770) {
+        return { right: "50%", top: "58%" };
+      }
+      return { right: "15%" };
+    }
+  };
 
   return (
-    <div className="flexColCenter login-container">
+    <div className="flexColCenter login-container" style={getLoginStyles()}>
       <img src="./umbrella-switch.png" className="umbrella-switch" alt="" />
       <label className="flexColCenter">
         Login
@@ -24,5 +35,5 @@ const Login = () => {
       </span>
     </div>
   );
-}
+};
 export default Login;

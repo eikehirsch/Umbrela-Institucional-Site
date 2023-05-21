@@ -7,6 +7,7 @@
   color: var(--secondary);
   justify-content: space-between;
   padding: 1rem 0;
+  position: relative;
 }
 
 .h-menu {

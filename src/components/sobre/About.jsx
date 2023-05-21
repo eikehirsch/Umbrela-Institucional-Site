@@ -2,31 +2,19 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import "./About.css";
-import Login from "../login/Login";
 
 const About = () => {
   const [isFirstCardOpened, setIsFirstCardOpened] = useState(false);
   const [isSecondCardOpened, setIsSecondCardOpened] = useState(false);
   const [isThirdCardOpened, setIsThirdCardOpened] = useState(false);
-  const [isLoginShowed, setIsLoginShowed] = useState(true);
-
-  useEffect(() => {
-    if (isFirstCardOpened || isSecondCardOpened || isThirdCardOpened) {
-      setIsLoginShowed(false);
-    } else {
-      setIsLoginShowed(true);
-    }
-  }, [isFirstCardOpened, isSecondCardOpened, isThirdCardOpened]);
 
   return (
     <div className="about-wrapper">
       <div className="paddings innerWidth flexColCenter about-container">
         <div className="flexColCenter titles-container">
-          {isLoginShowed && <Login />}
-
           <h1 className="about-title">Sobre nós</h1>
           <h2 className="about-subtitle">
-            Sabemos que a confiança é um produto da transparência, então que tal
+            Sabemos que a confiança é um resultado da transparência, então que tal
             nos conhecer melhor?
           </h2>
         </div>

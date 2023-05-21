@@ -1,5 +1,6 @@
 .welcome-racconCity-wrapper {
   position: relative;
+  background-color: rgb(247, 235, 220);
 }
 
 .welcome-title {
@@ -19,18 +20,86 @@
   width: 100%;
 }
 
-
 .raccoon-city-imagem {
   width: 100%;
 }
 
-.welcome-imagesContainer {
-  gap: 1rem;
+.slider-raccoon-slider-container {
 }
 
-
-.about-raccoon-city-title {
-  font-size: 2rem;
-  margin-bottom: 2rem;
+.button-prev-raccoon-slide,
+.button-next-raccoon-slide {
+  background-color: #e10b0b;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 0.2rem 0.8rem;
+  opacity: 50%;
+  transition: all 300ms ease-in;
+  width: 2.5rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  z-index: 10;
 }
 
+.button-prev-raccoon-slide {
+  position: absolute;
+  top: 50%;
+  left: 2rem;
+}
+
+.button-next-raccoon-slide {
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+}
+
+.button-prev-raccoon-slide:hover,
+.button-next-raccoon-slide:hover {
+  font-weight: bold;
+  opacity: 100%;
+  scale: 1.1;
+}
+
+.swiper-raccoon {
+  position: relative;
+}
+
+.slider-raccoon-slider-1 {
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  gap: 4rem;
+}
+
+.slider-raccoon-image {
+  width: 50%;
+}
+
+.slider-raccoon-text {
+  gap: 2rem;
+  top: 25%;
+  left: 8rem;
+  width: 30%;
+}
+
+.slider-raccoon-title {
+  font-size: 1.7rem;
+  text-align: center;
+  line-height: 1.8rem;
+}
+
+.slider-raccoon-subtitle {
+  text-align: center;
+  color: rgb(244, 93, 93);
+}
+
+.slider-raccoon-paragraph {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 2rem;
+}

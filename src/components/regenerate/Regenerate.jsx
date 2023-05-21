@@ -40,7 +40,7 @@ const Regenerate = () => {
           , garantindo um rejuvenescimento celular permanente.
         </span>
         <div className="umbrella-switch-container">
-          <span>No botão abaixo para saber mais</span>
+          <span>Clique no botão abaixo para saber mais</span>
           <img
             style={switchRotater(switchPressed)}
             onClick={() => setSwitchPressed((prev) => !prev)}

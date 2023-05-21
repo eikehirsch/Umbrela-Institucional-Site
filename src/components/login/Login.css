@@ -1,17 +1,20 @@
 .login-container {
-  background-color: rgb(255, 182, 182);
-  border: 2px solid black;
+  background-color: rgb(241, 190, 190);
+  border: 2px solid rgb(0, 0, 0);
   gap: 0.5rem;
   padding: 1.5rem;
   position: absolute;
-  right: 1%;
-  top: 12%;
+  right: -100%;
+  top: 200%;
+  z-index: 10;
+  transition: all 300ms ease-in;
 }
 
 .login-container > label {
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 0.5rem;
+  color: rgb(231, 4, 4);
 }
 
 .login-input {
@@ -23,8 +26,3 @@
   text-decoration: underline;
 }
 
-@media (max-width: 1080px) {
-  .login-container {
-    position: static;
-  }
-}

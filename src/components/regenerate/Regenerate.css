@@ -83,6 +83,17 @@
   border: none;
 }
 
+@media (max-width: 460px) {
+
+  .commercial-container {
+    padding-top: 4.5rem;
+  }
+
+  .regenerate-head > :nth-child(3) {
+    top: 7rem;
+  }
+}
+
 @media (max-width: 800px) {
   .regenerate-head > :nth-child(1) {
     font-size: 1.5rem;

@@ -16,7 +16,7 @@ const Products = () => {
                     <span className='mostSearched-text'>Os mais procurados</span>
                </div>
 
-               <Swiper {...sliderSettings}>
+               <Swiper className='products-swiper' {...sliderSettings}>
                <SliderButtons/>
                     {
                          data.map((card, i) => (

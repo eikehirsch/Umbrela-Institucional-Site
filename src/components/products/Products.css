@@ -35,7 +35,7 @@
   font-size: 1.7rem;
 }
 
-.swiper-horizontal {
+.products-swiper {
   overflow: visible;
 }
 
@@ -74,7 +74,7 @@
 .products-buttons {
   gap: 1rem;
   position: absolute;
-  top: -2rem;
+  top: -4rem;
   right: 0;
 }
 
@@ -96,7 +96,7 @@
   scale: 1.1;
 }
 
-@media(max-width: 640px) {
+@media (max-width: 640px) {
   .products-head > :nth-child(1) {
     font-size: 1.3rem;
   }
